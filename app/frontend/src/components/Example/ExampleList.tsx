@@ -11,9 +11,9 @@ export type ExampleModel = {
 };
 
 const EXAMPLES: ExampleModel[] = [
-    { text: "How is strengthening student data privacy accomplished?", value: "How is strengthening student data privacy accomplished?" },
-    { text: "What are Microsoft's primary sources of revenue?", value: "What are Microsoft's primary sources of revenue?" },
-    { text: "What are some flavors of Breyers?", value: "What are some flavors of Breyers?" }
+    { text: "Når ble dokumentet 001-G-G-00-200-02 opprettet og når ble det revidert?", value: "Når ble dokumentet 001-G-G-00-200-02 opprettet og når ble det revidert?" },
+    { text: "Kan du gi mer kontekst eller informasjon om dokument-ID 117680?", value: "Kan du gi mer kontekst eller informasjon om dokument-ID 117680?" },
+    { text: "Hva er det første du skal gjøre når du oppdager en brann ifølge branninstruksen fra skansenconsult.no?", value: "Hva er det første du skal gjøre når du oppdager en brann ifølge branninstruksen fra skansenconsult.no?" }
 ];
 
 interface Props {

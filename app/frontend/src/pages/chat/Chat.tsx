@@ -250,44 +250,34 @@ const Chat = () => {
                 <div className={styles.chatContainer}>
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
-                            <SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" />
-                            <h1 className={styles.chatEmptyStateTitle}>Have a conversation with your private data</h1>
+                            <img alt="Oslo kommune logo" src="@oslokommune/punkt-assets/dist/logos/oslologo.svg" style={{fontSize: '120px'}} aria-hidden="true"/>   
+                            <span className={styles.chatEmptyObjectives}></span>
+                            <h1 className={styles.chatEmptyStateTitle}>Turn Your Data into Powerful Insights</h1>
                             <span className={styles.chatEmptyObjectives}>
-                                The objective of the Information Assistant, built with Azure OpenAI, is to leverage a combination of AI components 
-                                to enable you to <b>Chat</b> (Have a conversation) with your own private data. You can use our <b>Upload</b> feature to begin adding your private data now. The Information Assistant attempts to provide responses that are:
                             </span>
                             <span className={styles.chatEmptyObjectivesList}>
                                 <span className={styles.chatEmptyObjectivesListItem}>
-                                    <ClockFilled fontSize={"40px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Clock icon" />
-                                    <span className={styles.chatEmptyObjectivesListItemText}>Current: Based on the latest "up to date" information in your private data</span>
+                                    
                                 </span>
                                 <span className={styles.chatEmptyObjectivesListItem}>
-                                    <TargetArrowFilled fontSize={"40px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Target icon" />
-                                    <span className={styles.chatEmptyObjectivesListItemText}>Relevant: Responses should leverage your private data</span>
+                                    
                                 </span>
                                 <span className={styles.chatEmptyObjectivesListItem}>
-                                    <OptionsFilled fontSize={"40px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Options icon" />
-                                    <span className={styles.chatEmptyObjectivesListItemText}>Controlled: You can use the <b>Adjust</b> feature to control the response parameters</span>
+                                    
                                 </span>
                                 <span className={styles.chatEmptyObjectivesListItem}>
-                                    <SearchInfoFilled fontSize={"40px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Search Info icon" />
-                                    <span className={styles.chatEmptyObjectivesListItemText}>Referenced: Responses should include specific citations</span>
+                                    
                                 </span>
                                 <span className={styles.chatEmptyObjectivesListItem}>
-                                    <PersonStarFilled fontSize={"40px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Person Star icon" />
-                                    <span className={styles.chatEmptyObjectivesListItemText}>Personalized: Responses should be tailored to your personal settings you <b>Adjust</b> to</span>
+                                    
                                 </span>
                                 <span className={styles.chatEmptyObjectivesListItem}> 
-                                    <TextBulletListSquareSparkleFilled fontSize={"40px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Text Bullet List Square Sparkle icon" />
-                                    <span className={styles.chatEmptyObjectivesListItemText}>Explainable: Each response should include details on the <b>Thought Process</b> that was used</span>
+                                    
                                 </span>
                             </span>
                             <span className={styles.chatEmptyObjectives}>
-                                <i>Though the Accelerator is focused on the key areas above, human oversight to confirm accuracy is crucial. 
-                                All responses from the system must be verified with the citations provided. 
-                                The responses are only as accurate as the data provided.</i>
                             </span>
-                            <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
+                            <h2 className={styles.chatEmptyStateSubtitle}>Ask or test an example</h2>
                             <ExampleList onExampleClicked={onExampleClicked} />
                         </div>
                     ) : (
@@ -334,7 +324,7 @@ const Chat = () => {
                     <div className={styles.chatInput}>
                         <QuestionInput
                             clearOnSend
-                            placeholder="Type a new question (e.g. Who are Microsoft's top executives, provided as a table?)"
+                            placeholder="Type a new question"
                             disabled={isLoading}
                             onSend={question => makeApiRequest(question)}
                             onAdjustClick={() => setIsConfigPanelOpen(!isConfigPanelOpen)}
