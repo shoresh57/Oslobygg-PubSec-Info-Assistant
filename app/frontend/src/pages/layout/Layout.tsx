@@ -15,7 +15,7 @@ const Layout = () => {
                 <div className={styles.headerContainer}>
                     <div className={styles.headerTitleContainer}>
                         <img src={openai} alt="Azure OpenAI" className={styles.headerLogo} />
-                        <h3 className={styles.headerTitle}><Title/></h3>
+                        <h4 className={styles.headerTitle}><Title/></h4>
                     </div>
                     <nav>
                         <ul className={styles.headerNavList}>

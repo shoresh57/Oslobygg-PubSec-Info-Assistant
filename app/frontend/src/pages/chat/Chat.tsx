@@ -5,7 +5,7 @@ import { useRef, useState, useEffect } from "react";
 import { Checkbox, Panel, DefaultButton, TextField, SpinButton, Separator} from "@fluentui/react";
 import { SparkleFilled, ClockFilled, TargetArrowFilled, OptionsFilled, SearchInfoFilled, PersonStarFilled, TextBulletListSquareSparkleFilled } from "@fluentui/react-icons";
 import { ITag } from '@fluentui/react/lib/Pickers';
-
+import oslokomune from "../../assets/oslokomune.svg";
 import styles from "./Chat.module.css";
 import rlbgstyles from "../../components/ResponseLengthButtonGroup/ResponseLengthButtonGroup.module.css";
 import rtbgstyles from "../../components/ResponseTempButtonGroup/ResponseTempButtonGroup.module.css";
@@ -250,6 +250,7 @@ const Chat = () => {
                 <div className={styles.chatContainer}>
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
+                            <img src={oslokomune} alt="Azure OpenAI" className={styles.headerLogo} />
                             <img alt="Oslo kommune logo" src="@oslokommune/punkt-assets/dist/logos/oslologo.svg" style={{fontSize: '120px'}} aria-hidden="true"/>   
                             <span className={styles.chatEmptyObjectives}></span>
                             <h1 className={styles.chatEmptyStateTitle}>Turn Your Data into Powerful Insights</h1>
