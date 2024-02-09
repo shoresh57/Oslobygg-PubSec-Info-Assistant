@@ -30,7 +30,7 @@
 }
 
 .headerLogo {
-    height: 80px;
+    height: 150px;
 }
 
 .headerTitle {
@@ -85,7 +85,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(242, 242, 242);
+    background-color: #f7f3d9cb;
     height: fit-content;
     -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3) ;
     box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3) ;

@@ -251,7 +251,7 @@ const Chat = () => {
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
                             <img src={oslokomune} alt="Azure OpenAI" className={styles.headerLogo} />
-                            <img alt="Oslo kommune logo" src="@oslokommune/punkt-assets/dist/logos/oslologo.svg" style={{fontSize: '120px'}} aria-hidden="true"/>   
+                            <img alt="Oslo kommune logo" src="@oslokommune/punkt-assets/dist/logos/oslologo.svg" style={{fontSize: '50px'}} aria-hidden="true"/>   
                             <span className={styles.chatEmptyObjectives}></span>
                             <h1 className={styles.chatEmptyStateTitle}>Turn Your Data into Powerful Insights</h1>
                             <span className={styles.chatEmptyObjectives}>
