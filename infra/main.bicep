@@ -109,7 +109,7 @@ param kvAccessObjectId string = ''
 
 var abbrs = loadJsonContent('abbreviations.json')
 var tags = { ProjectName: 'Information Assistant', BuildNumber: buildNumber }
-var prefix = 'infoasst'
+var prefix = 'parinazdemo'
 
 // Organize resources in a resource group
 resource rg 'Microsoft.Resources/resourceGroups@2021-04-01' = {
