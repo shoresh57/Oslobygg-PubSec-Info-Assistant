@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     margin-right: 40px;
-    color: #f2f2f2;
+    color: #1a1919;
     text-decoration: none;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .headerNavPageLink {
-    color: #f2f2f2;
+    color: #f7f3d9cb;
     text-decoration: none;
     opacity: 0.75;
 
@@ -59,7 +59,7 @@
 }
 
 .headerNavPageLinkActive {
-    color: #f2f2f2;
+    color: #f7f3d9cb;
     text-decoration: none;
 }
 
@@ -85,7 +85,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #f7f3d9cb;
+    background-color: #f0640d57;
     height: fit-content;
     -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3) ;
     box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.3) ;
