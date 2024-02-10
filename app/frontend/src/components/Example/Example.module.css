@@ -13,7 +13,7 @@
 
 .example {
     word-break: break-word;
-    background: #dbdbdb;
+    background: #e8d671;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
 
 .exampleText {
     margin: 0;
-    font-size: 21px;
+    font-size: 18px;
     width: 280px;
     height: 90px;
 }

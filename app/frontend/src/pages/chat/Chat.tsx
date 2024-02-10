@@ -253,7 +253,7 @@ const Chat = () => {
                             <img src={oslokomune} alt="Azure OpenAI" style={{ width: '100px', height: '100px' }} />
                     
                             <span className={styles.chatEmptyObjectives}></span>
-                            <h1 className={styles.chatEmptyStateTitle}>Turn Your Data into Powerful Insights</h1>
+                            <h2 className={styles.chatEmptyStateTitle}>Turn Your Data into Powerful Insights</h2>
                             <span className={styles.chatEmptyObjectives}>
                             </span>
                             <span className={styles.chatEmptyObjectivesList}>
