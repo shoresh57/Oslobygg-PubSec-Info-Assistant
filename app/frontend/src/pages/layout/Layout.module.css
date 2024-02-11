@@ -35,7 +35,7 @@
 
 .headerTitle {
     margin-left: 12px;
-    font-weight: 500;
+    font-weight: 700;
     color: black;
 }
 
@@ -104,8 +104,8 @@
 }
 .headerSubtitle {
 
-    font-size: 15px;
+    font-size: 19px;
     font-style: italic;
-    color:  #0f0f0f64;
+    color:  #0f0f0f;
     margin-top: auto;
 }

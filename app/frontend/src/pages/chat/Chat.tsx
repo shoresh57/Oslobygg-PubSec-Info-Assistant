@@ -250,7 +250,7 @@ const Chat = () => {
                 <div className={styles.chatContainer}>
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
-                            <img src={oslokomune} alt="Azure OpenAI" style={{ width: '150px', height: '150px' }} />
+                            <img src={oslokomune} alt="Azure OpenAI" style={{ width: '170px', height: '170px' }} />
                     
                             <span className={styles.chatEmptyObjectives}></span>
                             <h3 className={styles.chatEmptyStateTitle}>Turn Your Data into Powerful Insights</h3>
