@@ -103,9 +103,9 @@
     white-space: pre-line;
 }
 .headerSubtitle {
-    position: absolute;
-    bottom: 0;
-    font-size: 16px;
+
+    font-size: 15px;
     font-style: italic;
-    color:  #f0640d57;
+    color:  #0f0f0f64;
+    margin-top: auto;
 }
