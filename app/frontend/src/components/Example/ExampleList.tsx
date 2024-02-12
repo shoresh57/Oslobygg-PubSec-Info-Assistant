@@ -13,7 +13,7 @@ export type ExampleModel = {
 const EXAMPLES: ExampleModel[] = [
     { text: "Når ble dokumentet 001-G-G-00-200-02 opprettet og når ble det revidert?", value: "Når ble dokumentet 001-G-G-00-200-02 opprettet og når ble det revidert?" },
     { text: "Kan du gi mer kontekst eller informasjon om dokument-ID 117680?", value: "Kan du gi mer kontekst eller informasjon om dokument-ID 117680?" },
-    { text: "Hva er det første du skal gjøre når du oppdager en brann ifølge branninstruksen fra skansenconsult.no?", value: "Hva er det første du skal gjøre når du oppdager en brann ifølge branninstruksen fra skansenconsult.no?" }
+    { text: "Hva er det første du skal gjøre når du oppdager en brann ifølge branninstruksen fra skansenconsult?", value: "Hva er det første du skal gjøre når du oppdager en brann ifølge branninstruksen fra skansenconsult?" }
 ];
 
 interface Props {
