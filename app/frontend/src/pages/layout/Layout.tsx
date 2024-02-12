@@ -16,7 +16,7 @@ const Layout = () => {
                     <div className={styles.headerTitleContainer}>
                         <img src={openai} alt="Azure OpenAI" className={styles.headerLogo} />
                         <h3 className={styles.headerTitle}><Title/></h3>
-                        <h5 className={styles.headerSubtitle}>(Built with Azure OpenAI and other Azure Services)</h5>
+                        <span className={styles.headerSubtitle}>(Built with Azure OpenAI and other Azure Services)</span>
                     </div>
                     <nav>
                         <ul className={styles.headerNavList}>
